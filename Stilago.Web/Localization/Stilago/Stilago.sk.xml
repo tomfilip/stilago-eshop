@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="sk">
+  <texts>
+    <text name="HomePage" value="Hladať produkty" />
+    <text name="About" value="O nás" />
+    <text name="WellcomeMessage" value="Vitajte na Stilagu!" />
+    <text name="LearnMore" value="Viac o nás" />
+    <text name="AboutFormat" value="O nás {0}" />
+    <text name="ForMoreInformation" value="Pre viac informácií" />
+  </texts>
+</localizationDictionary>

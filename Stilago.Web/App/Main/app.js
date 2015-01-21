@@ -28,6 +28,19 @@
                     templateUrl: '/App/Main/views/about/about.cshtml',
                     menu: 'About' //Matches to name of 'About' menu in StilagoNavigationProvider
                 });
+                //.state('search', {
+                //    url: '/search',
+                //    templateUrl: '/App/Main/views/search/index.cshtml',
+                //    menu: 'Search' //Matches to name of 'About' menu in StilagoNavigationProvider
+                //}).state('shoppingCart', {
+                //    url: '/orders/shopping-cart',
+                //    templateUrl: '/App/Main/views/orders/shoppingCart.cshtml',
+                //    menu: 'ShoppingCart' //Matches to name of 'About' menu in StilagoNavigationProvider
+                //}).state('myOrders', {
+                //    url: '/orders/my-orders',
+                //    templateUrl: '/App/Main/views/orders/myOrders.cshtml',
+                //    menu: 'MyOrders' //Matches to name of 'About' menu in StilagoNavigationProvider
+                //});
         }
     ]);
 })();

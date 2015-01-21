@@ -194,6 +194,9 @@
     <Content Include="App\Main\views\layout\layout.js" />
     <Content Include="App\Main\views\home\home.js" />
     <Content Include="App\Main\views\about\about.js" />
+    <Content Include="App\Main\views\orders\myOrders.js" />
+    <Content Include="App\Main\views\orders\shoppingCart.js" />
+    <Content Include="App\Main\views\search\index.js" />
     <Content Include="Content\bootstrap-cosmo.min.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -203,6 +206,9 @@
     <Content Include="Content\flags\famfamfam-flags.png" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\material-wfont.css" />
+    <Content Include="Content\material.css" />
+    <Content Include="Content\ripples.css" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />
@@ -241,10 +247,12 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\LICENSE.txt" />
+    <Content Include="fonts\Material-Design-Icons.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Localization\AbpWeb\AbpWeb.tr.xml" />
+    <Content Include="Localization\AbpWeb\AbpWeb.sk.xml" />
     <Content Include="Localization\AbpWeb\AbpWeb.xml" />
-    <Content Include="Localization\Stilago\Stilago.tr.xml" />
+    <Content Include="Localization\Stilago\Stilago.sk.xml" />
     <Content Include="Localization\Stilago\Stilago.xml" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
@@ -312,6 +320,18 @@
     <Content Include="Scripts\angular-aria.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="Content\material-wfont.css.map" />
+    <Content Include="Content\material.css.map" />
+    <Content Include="Content\ripples.css.map" />
+    <Content Include="fonts\Material-Design-Icons.eot" />
+    <Content Include="fonts\Material-Design-Icons.ttf" />
+    <Content Include="fonts\Material-Design-Icons.woff" />
+    <Content Include="App\Main\views\orders\shoppingCart.cshtml" />
+    <Content Include="App\Main\views\orders\myOrders.cshtml" />
+    <Content Include="App\Main\views\search\index.cshtml" />
+    <Content Include="App\Main\main.css.map">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -1066,6 +1086,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\json2.js" />
     <Content Include="Scripts\json2.min.js" />
+    <Content Include="Scripts\material.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\moment-with-locales.js" />
     <Content Include="Scripts\moment-with-locales.min.js" />
@@ -1077,6 +1098,7 @@
     <Content Include="Scripts\others\respond.src.js" />
     <Content Include="Scripts\others\spinjs\jquery.spin.js" />
     <Content Include="Scripts\others\spinjs\spin.js" />
+    <Content Include="Scripts\ripples.js" />
     <Content Include="Scripts\toastr.js" />
     <Content Include="Scripts\toastr.min.js" />
     <Content Include="Web.config" />
@@ -1102,6 +1124,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\version.json" />
+    <Content Include="Scripts\material.min.js.map" />
+    <Content Include="Scripts\ripples.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

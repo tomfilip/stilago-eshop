@@ -15,7 +15,12 @@ namespace Stilago.Web
                 new StyleBundle("~/Bundles/App/vendor/css")
                     .Include(
                         "~/Content/themes/base/all.css",
-                        "~/Content/bootstrap-cosmo.min.css",
+
+                        "~/Content/bootstrap.css",
+                        "~/Content/material.css",
+                        "~/Content/material-wfont.css",
+                        "~/Content/ripples.css",
+
                         "~/Content/toastr.min.css",
                         "~/Content/flags/famfamfam-flags.css",
                         "~/Content/font-awesome.min.css"
@@ -34,7 +39,13 @@ namespace Stilago.Web
                         "~/Scripts/jquery-2.1.1.min.js",
                         "~/Scripts/jquery-ui-1.11.2.min.js",
 
+                        //Bootstrap
                         "~/Scripts/bootstrap.min.js",
+
+                        //Bootstrap material design
+                        "~/Scripts/material.js",
+                        "~/Scripts/ripples.js",
+
 
                         "~/Scripts/moment-with-locales.min.js",
                         "~/Scripts/jquery.blockUI.js",
@@ -42,6 +53,7 @@ namespace Stilago.Web
                         "~/Scripts/others/spinjs/spin.js",
                         "~/Scripts/others/spinjs/jquery.spin.js",
 
+                        //Angular
                         "~/Scripts/angular.min.js",
                         "~/Scripts/angular-animate.min.js",
                         "~/Scripts/angular-sanitize.min.js",
@@ -50,6 +62,7 @@ namespace Stilago.Web
                         "~/Scripts/angular-ui/ui-bootstrap-tpls.min.js",
                         "~/Scripts/angular-ui/ui-utils.min.js",
 
+                        //ASP.Net Boilerplate
                         "~/Abp/Framework/scripts/abp.js",
                         "~/Abp/Framework/scripts/libs/abp.jquery.js",
                         "~/Abp/Framework/scripts/libs/abp.toastr.js",

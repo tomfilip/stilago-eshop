@@ -19,16 +19,38 @@ namespace Stilago.Web
                         "Home",
                         new LocalizableString("HomePage", StilagoConsts.LocalizationSourceName),
                         url: "#/",
-                        icon: "fa fa-home"
+                        icon: "mdi-action-home"
                         )
                 ).AddItem(
                     new MenuItemDefinition(
                         "About",
                         new LocalizableString("About", StilagoConsts.LocalizationSourceName),
                         url: "#/about",
-                        icon: "fa fa-info"
+                        icon: "mdi-action-info"
                         )
                 );
+                //).AddItem(
+                //    new MenuItemDefinition(
+                //        "Search",
+                //        new LocalizableString("Search", StilagoConsts.LocalizationSourceName),
+                //        url: "#/search",
+                //        icon: "hide"
+                //        )
+                //).AddItem(
+                //    new MenuItemDefinition(
+                //        "ShoppingCart",
+                //        new LocalizableString("ShoppingCart", StilagoConsts.LocalizationSourceName),
+                //        url: "#/Orders/shopping-cart",
+                //        icon: "mdi-action-shopping-cart"
+                //        )
+                //).AddItem(
+                //    new MenuItemDefinition(
+                //        "MyOrders",
+                //        new LocalizableString("MyOrders", StilagoConsts.LocalizationSourceName),
+                //        url: "#/Orders/my-orders",
+                //        icon: "mdi-action-shopping-basket"
+                //        )
+                //);
         }
     }
 }

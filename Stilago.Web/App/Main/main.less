@@ -1,7 +1,9 @@
 ﻿/* Application specific styles */
 
+@stilago-color: #e05206;
+
 body {
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 /* Styles for angular ui transition animations */
@@ -41,4 +43,28 @@ body {
         left: 2em;
         opacity: 0;
     }
+}
+
+.search-label{
+    text-align:right;
+    font-size:20px;
+    font-weight:normal;
+    color:@stilago-color;
+}
+
+.search-button{
+    font-size: 25px;
+    border: none;
+    background: none;
+    color: @stilago-color;
+    cursor:pointer;
+    position:absolute;
+    top:0;
+    right:10px;
+}
+
+.search-container .form-control-wrapper .material-input:before,
+.search-container .form-control-wrapper .form-control:focus ~ .material-input:after, 
+.search-container .form-control-wrapper .form-control.focus ~ .material-input:after{
+    background-color:@stilago-color;
 }

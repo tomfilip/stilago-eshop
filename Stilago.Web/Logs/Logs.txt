@@ -58,3 +58,501 @@ DEBUG 2015-01-20 19:34:43,660 [1    ] Abp.Modules.AbpModuleManager             -
 DEBUG 2015-01-20 19:34:43,660 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
 DEBUG 2015-01-20 19:34:43,662 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
 DEBUG 2015-01-20 19:34:45,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 19:54:21,853 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 19:54:23,284 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 19:54:23,288 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 19:54:23,294 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 19:54:24,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 20:07:13,553 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 20:07:15,303 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 20:07:15,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:15,313 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 20:07:16,690 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 20:07:51,607 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 20:07:53,190 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 20:07:53,194 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:07:53,199 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 20:07:54,467 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 20:22:35,659 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 20:22:37,821 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 20:22:37,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:22:37,831 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 20:22:38,966 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 20:26:56,184 [73   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 20:26:57,476 [73   ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 20:26:57,480 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,482 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,482 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,482 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,482 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,482 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,482 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,483 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,483 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,483 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,483 [73   ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:26:57,485 [73   ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 20:26:58,269 [73   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 20:31:45,272 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 20:31:46,728 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 20:31:46,732 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:31:46,738 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 20:31:48,000 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 20:34:31,625 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 20:34:34,042 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 20:34:34,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,048 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,049 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,050 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:34:34,052 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 20:34:35,288 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 20:37:23,234 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 20:37:24,829 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 20:37:24,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:37:24,838 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 20:37:26,191 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 20:45:00,160 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 20:45:01,441 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 20:45:01,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,447 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,448 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 20:45:01,450 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 20:45:02,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 21:03:14,251 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 21:03:15,660 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 21:03:15,664 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,665 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,665 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,665 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,665 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,665 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,666 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:03:15,668 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 21:03:16,711 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 21:16:52,226 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 21:16:53,465 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 21:16:53,469 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,470 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,471 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,472 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:16:53,474 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 21:16:54,297 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 21:24:26,700 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 21:24:28,326 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 21:24:28,331 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:24:28,336 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 21:24:29,523 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+ERROR 2015-01-20 21:24:36,033 [5    ] Default                                  - Abp.AbpException: Can not find a localized string for 'Search' in source 'Stilago'!
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name, CultureInfo culture)
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Localization.LocalizationHelper.GetString(String sourceName, String name)
+   at Abp.Localization.LocalizableString.Localize()
+   at Abp.Application.Navigation.UserMenuItem..ctor(MenuItemDefinition menuItemDefinition)
+   at Abp.Application.Navigation.UserNavigationManager.FillUserMenuItems(Nullable`1 userId, IList`1 menuItemDefinitions, IList`1 userMenuItems)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenu(String menuName, Nullable`1 userId)
+   at Abp.Application.Navigation.UserNavigationManager.<>c__DisplayClass1.<GetMenus>b__0(MenuDefinition m)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Collections.Immutable.ImmutableExtensions.FallbackWrapper`1.get_Count()
+   at System.Collections.Immutable.ImmutableList`1.FillFromEmpty(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList.ToImmutableList[TSource](IEnumerable`1 source)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenus(Nullable`1 userId)
+   at Abp.Web.Navigation.NavigationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.GetScripts()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+Abp.AbpException: Can not find a localized string for 'Search' in source 'Stilago'!
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name, CultureInfo culture)
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Localization.LocalizationHelper.GetString(String sourceName, String name)
+   at Abp.Localization.LocalizableString.Localize()
+   at Abp.Application.Navigation.UserMenuItem..ctor(MenuItemDefinition menuItemDefinition)
+   at Abp.Application.Navigation.UserNavigationManager.FillUserMenuItems(Nullable`1 userId, IList`1 menuItemDefinitions, IList`1 userMenuItems)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenu(String menuName, Nullable`1 userId)
+   at Abp.Application.Navigation.UserNavigationManager.<>c__DisplayClass1.<GetMenus>b__0(MenuDefinition m)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Collections.Immutable.ImmutableExtensions.FallbackWrapper`1.get_Count()
+   at System.Collections.Immutable.ImmutableList`1.FillFromEmpty(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList.ToImmutableList[TSource](IEnumerable`1 source)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenus(Nullable`1 userId)
+   at Abp.Web.Navigation.NavigationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.GetScripts()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2015-01-20 21:26:31,407 [8    ] Default                                  - Abp.AbpException: Can not find a localized string for 'Search' in source 'Stilago'!
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name, CultureInfo culture)
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Localization.LocalizationHelper.GetString(String sourceName, String name)
+   at Abp.Localization.LocalizableString.Localize()
+   at Abp.Application.Navigation.UserMenuItem..ctor(MenuItemDefinition menuItemDefinition)
+   at Abp.Application.Navigation.UserNavigationManager.FillUserMenuItems(Nullable`1 userId, IList`1 menuItemDefinitions, IList`1 userMenuItems)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenu(String menuName, Nullable`1 userId)
+   at Abp.Application.Navigation.UserNavigationManager.<>c__DisplayClass1.<GetMenus>b__0(MenuDefinition m)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Collections.Immutable.ImmutableExtensions.FallbackWrapper`1.get_Count()
+   at System.Collections.Immutable.ImmutableList`1.FillFromEmpty(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList.ToImmutableList[TSource](IEnumerable`1 source)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenus(Nullable`1 userId)
+   at Abp.Web.Navigation.NavigationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.GetScripts()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+Abp.AbpException: Can not find a localized string for 'Search' in source 'Stilago'!
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name, CultureInfo culture)
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Localization.LocalizationHelper.GetString(String sourceName, String name)
+   at Abp.Localization.LocalizableString.Localize()
+   at Abp.Application.Navigation.UserMenuItem..ctor(MenuItemDefinition menuItemDefinition)
+   at Abp.Application.Navigation.UserNavigationManager.FillUserMenuItems(Nullable`1 userId, IList`1 menuItemDefinitions, IList`1 userMenuItems)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenu(String menuName, Nullable`1 userId)
+   at Abp.Application.Navigation.UserNavigationManager.<>c__DisplayClass1.<GetMenus>b__0(MenuDefinition m)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Collections.Immutable.ImmutableExtensions.FallbackWrapper`1.get_Count()
+   at System.Collections.Immutable.ImmutableList`1.FillFromEmpty(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList.ToImmutableList[TSource](IEnumerable`1 source)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenus(Nullable`1 userId)
+   at Abp.Web.Navigation.NavigationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.GetScripts()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-01-20 21:27:08,607 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 21:27:11,090 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 21:27:11,099 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,101 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,103 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:27:11,106 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 21:27:12,552 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+ERROR 2015-01-20 21:27:19,512 [6    ] Default                                  - Abp.AbpException: Can not find a localized string for 'Search' in source 'Stilago'!
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name, CultureInfo culture)
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Localization.LocalizationHelper.GetString(String sourceName, String name)
+   at Abp.Localization.LocalizableString.Localize()
+   at Abp.Application.Navigation.UserMenuItem..ctor(MenuItemDefinition menuItemDefinition)
+   at Abp.Application.Navigation.UserNavigationManager.FillUserMenuItems(Nullable`1 userId, IList`1 menuItemDefinitions, IList`1 userMenuItems)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenu(String menuName, Nullable`1 userId)
+   at Abp.Application.Navigation.UserNavigationManager.<>c__DisplayClass1.<GetMenus>b__0(MenuDefinition m)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Collections.Immutable.ImmutableExtensions.FallbackWrapper`1.get_Count()
+   at System.Collections.Immutable.ImmutableList`1.FillFromEmpty(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList.ToImmutableList[TSource](IEnumerable`1 source)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenus(Nullable`1 userId)
+   at Abp.Web.Navigation.NavigationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.GetScripts()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+Abp.AbpException: Can not find a localized string for 'Search' in source 'Stilago'!
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name, CultureInfo culture)
+   at Abp.Localization.Sources.DictionaryBasedLocalizationSource.GetString(String name)
+   at Abp.Localization.LocalizationHelper.GetString(String sourceName, String name)
+   at Abp.Localization.LocalizableString.Localize()
+   at Abp.Application.Navigation.UserMenuItem..ctor(MenuItemDefinition menuItemDefinition)
+   at Abp.Application.Navigation.UserNavigationManager.FillUserMenuItems(Nullable`1 userId, IList`1 menuItemDefinitions, IList`1 userMenuItems)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenu(String menuName, Nullable`1 userId)
+   at Abp.Application.Navigation.UserNavigationManager.<>c__DisplayClass1.<GetMenus>b__0(MenuDefinition m)
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at System.Collections.Immutable.ImmutableExtensions.FallbackWrapper`1.get_Count()
+   at System.Collections.Immutable.ImmutableList`1.FillFromEmpty(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList`1.AddRange(IEnumerable`1 items)
+   at System.Collections.Immutable.ImmutableList.ToImmutableList[TSource](IEnumerable`1 source)
+   at Abp.Application.Navigation.UserNavigationManager.GetMenus(Nullable`1 userId)
+   at Abp.Web.Navigation.NavigationScriptManager.GetScript()
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.GetScripts()
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.ActionInvocation.InvokeSynchronousActionMethod()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2015-01-20 21:28:30,308 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 21:28:31,892 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 21:28:31,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,899 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:28:31,902 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 21:28:33,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 21:43:15,103 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 21:43:16,751 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 21:43:16,756 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,757 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:16,761 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 21:43:17,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 21:43:50,666 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 21:43:52,969 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 21:43:52,974 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,975 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,976 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,977 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 21:43:52,980 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 21:43:54,301 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-20 22:20:05,967 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-20 22:20:07,386 [1    ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-20 22:20:07,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,393 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,394 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-20 22:20:07,396 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-20 22:20:08,728 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes
+DEBUG 2015-01-21 00:01:45,015 [486  ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2015-01-21 00:01:45,913 [486  ] Abp.Modules.DefaultModuleFinder          - Found 11 ABP modules in total.
+DEBUG 2015-01-21 00:01:45,918 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,919 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,919 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,919 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,919 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,919 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.5.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,920 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoApplicationModule, Stilago.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,920 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoCoreModule, Stilago.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,920 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoDataModule, Stilago.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,920 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.Web.StilagoWebModule, Stilago.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,920 [486  ] Abp.Modules.AbpModuleManager             - Loaded module: Stilago.StilagoWebApiModule, Stilago.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2015-01-21 00:01:45,922 [486  ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2015-01-21 00:01:46,591 [486  ] Abp.AutoMapper.AbpAutoMapperModule       - Found 0 classes defines auto mapping attributes

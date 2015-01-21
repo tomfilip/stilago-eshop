@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="sk">
+  <texts>
+    <text name="InternalServerError" value="Nastala chyba počas vašej požiadavky! Prosím kontaktujte administrátora." />
+    <text name="ValidationError" value="Vaša požiadavka nie je platná." />
+  </texts>
+</localizationDictionary>

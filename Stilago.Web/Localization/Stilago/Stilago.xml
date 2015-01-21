@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <localizationDictionary culture="en">
   <texts>
-    <text name="HomePage" value="Home page" />
+    <text name="HomePage" value="Browse products" />
     <text name="About" value="About" />
     <text name="WellcomeMessage" value="Welcome to Stilago!" />
     <text name="Home_ThisIsATemplate" value="This project template is a starting point to develop web applicatins using..." />
