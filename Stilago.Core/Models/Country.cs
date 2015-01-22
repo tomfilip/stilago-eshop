@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Stilago.Models
 {
-    public class Country : AuditBase
+    public class Country : Entity<Guid>
     {
         [Required]
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
         [Required]
-        public string Culture { get; set; }
+        public virtual string Culture { get; set; }
     }
 }

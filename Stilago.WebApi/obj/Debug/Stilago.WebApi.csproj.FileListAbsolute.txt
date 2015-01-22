@@ -68,3 +68,9 @@ H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\bin\Debug\System.Web.Http.Web
 H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\obj\Debug\Stilago.WebApi.csprojResolveAssemblyReference.cache
 H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\obj\Debug\Stilago.WebApi.dll
 H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\obj\Debug\Stilago.WebApi.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\bin\Debug\Stilago.Core.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\bin\Debug\Stilago.Fundamentals.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\bin\Debug\Stilago.SharedHelpers.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\bin\Debug\Stilago.Core.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\bin\Debug\Stilago.Fundamentals.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.WebApi\bin\Debug\Stilago.SharedHelpers.pdb

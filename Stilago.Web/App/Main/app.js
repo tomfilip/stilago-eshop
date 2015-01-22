@@ -15,32 +15,31 @@
     //Configuration for Angular UI routing.
     app.config([
         '$stateProvider', '$urlRouterProvider',
-        function($stateProvider, $urlRouterProvider) {
-            $urlRouterProvider.otherwise('/');
+        function ($stateProvider, $urlRouterProvider) {
+            $urlRouterProvider.otherwise('/search/');
             $stateProvider
                 .state('home', {
-                    url: '/',
+                    url: '/search/:term',
                     templateUrl: '/App/Main/views/home/home.cshtml',
-                    menu: 'Home' //Matches to name of 'Home' menu in StilagoNavigationProvider
+                    menu: 'Home' 
                 })
-                .state('about', {
-                    url: '/about',
-                    templateUrl: '/App/Main/views/about/about.cshtml',
-                    menu: 'About' //Matches to name of 'About' menu in StilagoNavigationProvider
+                .state('computerCreate', {
+                    url: '/Computer/Create',
+                    templateUrl: '/App/Main/views/computer/createEdit.cshtml',
+                    menu: 'CreateComputer'
+                })
+                .state('computerEdit', {
+                    url: '/Computer/Edit/:id',
+                    templateUrl: '/App/Main/views/computer/createEdit.cshtml',
+                    menu: 'EditComputer',
+                    hide: true
+                })
+                .state('computerPreview', {
+                    url: '/Computer/Preview/:id',
+                    templateUrl: '/App/Main/views/computer/preview.cshtml',
+                    menu: 'PreviewComputer',
+                    hide: true
                 });
-                //.state('search', {
-                //    url: '/search',
-                //    templateUrl: '/App/Main/views/search/index.cshtml',
-                //    menu: 'Search' //Matches to name of 'About' menu in StilagoNavigationProvider
-                //}).state('shoppingCart', {
-                //    url: '/orders/shopping-cart',
-                //    templateUrl: '/App/Main/views/orders/shoppingCart.cshtml',
-                //    menu: 'ShoppingCart' //Matches to name of 'About' menu in StilagoNavigationProvider
-                //}).state('myOrders', {
-                //    url: '/orders/my-orders',
-                //    templateUrl: '/App/Main/views/orders/myOrders.cshtml',
-                //    menu: 'MyOrders' //Matches to name of 'About' menu in StilagoNavigationProvider
-                //});
         }
     ]);
 })();

@@ -136,3 +136,7 @@ H:\Programovanie\2015\stilago-eshop\Stilago.Web\bin\Abp.EntityFramework.xml
 H:\Programovanie\2015\stilago-eshop\Stilago.Web\obj\Debug\Stilago.Web.csprojResolveAssemblyReference.cache
 H:\Programovanie\2015\stilago-eshop\Stilago.Web\obj\Debug\Stilago.Web.dll
 H:\Programovanie\2015\stilago-eshop\Stilago.Web\obj\Debug\Stilago.Web.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.Web\bin\Stilago.Fundamentals.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Web\bin\Stilago.SharedHelpers.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Web\bin\Stilago.Fundamentals.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.Web\bin\Stilago.SharedHelpers.pdb

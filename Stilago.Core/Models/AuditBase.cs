@@ -9,20 +9,16 @@ using System.Threading.Tasks;
 
 namespace Stilago.Models
 {
-    public class AuditBase : Entity<Guid>, ISoftDelete, IAudit<Guid, User>
+    public class AuditBase : Entity<Guid>, ISoftDelete, IAudit<Guid>
     {
-        public bool IsDeleted{ get; set; }
+        public virtual bool IsDeleted { get; set; }
 
-        public DateTimeOffset CreationTime { get; set; }
+        public virtual DateTimeOffset CreationTime { get; set; }
 
-        public DateTimeOffset LastModificationTime { get; set; }
+        public virtual DateTimeOffset LastModificationTime { get; set; }
 
-        public Guid CreatedById { get; set; }
+        public virtual Guid CreatedById { get; set; }
 
-        public Guid ModifiedById { get; set; }
-
-        public User CreatedBy { get; set; }
-
-        public User ModifiedBy { get; set; }
+        public virtual Guid ModifiedById { get; set; }
     }
 }

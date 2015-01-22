@@ -1,0 +1,64 @@
+﻿<div ng-controller="app.views.computerCreateEdit as vm">
+    <h1>{{headerMessage}}</h1>
+    <form name="computerForm">
+        <label>Model</label>
+        <div class="form-control-wrapper">
+            <input class="form-control" name="model" type="text" required ng-minlength="1" ng-maxlength="15" ng-model="form.model">
+            <span class="material-input"></span>
+            <span class="error" ng-show="computerForm.model.$error.required">
+                The model is required
+            </span>
+            <span class="error" ng-show="computerForm.model.$error.maxlength">
+                Maximum length is 15 characters
+            </span>
+        </div>
+        <br />
+        <label>Brand</label>
+        <div class="form-control-wrapper">
+            <input class="form-control" name="brand" required type="text" ng-model="form.brandName">
+            <span class="material-input"></span>
+            <span class="error" ng-show="computerForm.brand.$error.required">
+                The brand is required
+            </span>
+        </div>
+        <br />
+        <label>Description</label>
+        <div class="form-control-wrapper">
+            <textarea rows="2" class="form-control" ng-model="form.description"></textarea>
+            <span class="material-input"></span>
+        </div>
+        <br />
+        <label>Disk Capacity</label>
+        <div class="form-control-wrapper">
+            <input type="number" min="0" name="diskCapacity" class="form-control" ng-model="form.diskCapacity" required/>
+            <span class="material-input"></span>
+            <span class="error" ng-show="computerForm.diskCapacity.$error.required">
+                The disk capacity is required
+            </span>
+            <span class="error" ng-show="computerForm.diskCapacity.$error.number">
+                The disk capacity has to be a valid number
+            </span>
+            <span class="error" ng-show="computerForm.diskCapacity.$error.min">
+                The disk capacity has to be a positive number
+            </span>
+        </div>
+        <br />
+        <label>Price</label>
+        <div class="form-control-wrapper">
+            <input type="number" min="0" required name="price" class="form-control" ng-model="form.price" />
+            <span class="material-input"></span>
+            <span class="error" ng-show="computerForm.price.$error.required">
+                The price is required
+            </span>
+            <span class="error" ng-show="computerForm.price.$error.number">
+                The price has to be a valid number
+            </span>
+            <span class="error" ng-show="computerForm.price.$error.min">
+                The price has to be a positive number
+            </span>
+        </div>
+        <br />
+    </form>
+    <button class="btn btn-primary" ng-click="save()">Save</button>
+    <button class="btn btn-danger pull-right" ng-click="delete()" ng-hide="id == undefined">Delete</button>
+</div>

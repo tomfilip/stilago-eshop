@@ -1,0 +1,5 @@
+H:\Programovanie\2015\stilago-eshop\Stilago.SharedHelpers\bin\Debug\Stilago.SharedHelpers.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.SharedHelpers\bin\Debug\Stilago.SharedHelpers.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.SharedHelpers\obj\Debug\Stilago.SharedHelpers.csprojResolveAssemblyReference.cache
+H:\Programovanie\2015\stilago-eshop\Stilago.SharedHelpers\obj\Debug\Stilago.SharedHelpers.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.SharedHelpers\obj\Debug\Stilago.SharedHelpers.pdb

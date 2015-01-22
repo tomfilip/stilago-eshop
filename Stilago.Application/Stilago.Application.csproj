@@ -74,9 +74,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutomapperMappings.cs" />
+    <Compile Include="Services\ComputerService.cs" />
+    <Compile Include="Services\Interface\IComputerService.cs" />
+    <Compile Include="Services\Interface\ISearchService.cs" />
+    <Compile Include="Services\SearchService.cs" />
     <Compile Include="StilagoApplicationModule.cs" />
     <Compile Include="StilagoAppServiceBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\Brand\GetAllOutput.cs" />
+    <Compile Include="ViewModels\Brand\ListViewModel.cs" />
+    <Compile Include="ViewModels\Computer\CreateEditInput.cs" />
+    <Compile Include="ViewModels\Computer\CreateEditOutput.cs" />
+    <Compile Include="ViewModels\Computer\CreateEditViewModel.cs" />
+    <Compile Include="ViewModels\Computer\DeleteInput.cs" />
+    <Compile Include="ViewModels\Computer\GetInput.cs" />
+    <Compile Include="ViewModels\Computer\GetOutput.cs" />
+    <Compile Include="ViewModels\Computer\ListViewModel.cs" />
+    <Compile Include="ViewModels\Computer\SearchInput.cs" />
+    <Compile Include="ViewModels\Computer\SearchOutput.cs" />
+    <Compile Include="ViewModels\Orders\OrderInput.cs" />
+    <Compile Include="ViewModels\Orders\OrderOutput.cs" />
+    <Compile Include="ViewModels\Orders\RemoveOrderInput.cs" />
+    <Compile Include="ViewModels\Orders\ViewModel.cs" />
+    <Compile Include="ViewModels\ShoppingCart\AddToCartInput.cs" />
+    <Compile Include="ViewModels\ShoppingCart\AddToCartOutput.cs" />
+    <Compile Include="ViewModels\ShoppingCart\RemoveCartItemInput.cs" />
+    <Compile Include="ViewModels\ShoppingCart\ViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -86,6 +110,14 @@
     <ProjectReference Include="..\Stilago.Core\Stilago.Core.csproj">
       <Project>{17298EA0-AF73-4F30-B6F1-2066100D7D74}</Project>
       <Name>Stilago.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stilago.Fundamentals\Stilago.Fundamentals.csproj">
+      <Project>{1fe31424-ff45-4947-91f2-b3cd7aa64121}</Project>
+      <Name>Stilago.Fundamentals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Stilago.SharedHelpers\Stilago.SharedHelpers.csproj">
+      <Project>{21957349-9676-4cb9-bd9b-17f22ab2adb6}</Project>
+      <Name>Stilago.SharedHelpers</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

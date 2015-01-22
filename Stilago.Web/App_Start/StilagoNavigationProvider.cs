@@ -18,39 +18,31 @@ namespace Stilago.Web
                     new MenuItemDefinition(
                         "Home",
                         new LocalizableString("HomePage", StilagoConsts.LocalizationSourceName),
-                        url: "#/",
+                        url: "#/search/",
                         icon: "mdi-action-home"
                         )
                 ).AddItem(
                     new MenuItemDefinition(
-                        "About",
-                        new LocalizableString("About", StilagoConsts.LocalizationSourceName),
-                        url: "#/about",
+                        "CreateComputer",
+                        new LocalizableString("CreateComputer", StilagoConsts.LocalizationSourceName),
+                        url: "#/Computer/Create",
+                        icon: "mdi-content-add"
+                        )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "EditComputer",
+                        new LocalizableString("CreateComputer", StilagoConsts.LocalizationSourceName),
+                        url: "#/Computer/Edit/:id",
                         icon: "mdi-action-info"
                         )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "PreviewComputer",
+                        new LocalizableString("PreviewComputer", StilagoConsts.LocalizationSourceName),
+                        url: "#/Computer/preview/:id",
+                        icon: "mdi-action-visibility"
+                        )
                 );
-                //).AddItem(
-                //    new MenuItemDefinition(
-                //        "Search",
-                //        new LocalizableString("Search", StilagoConsts.LocalizationSourceName),
-                //        url: "#/search",
-                //        icon: "hide"
-                //        )
-                //).AddItem(
-                //    new MenuItemDefinition(
-                //        "ShoppingCart",
-                //        new LocalizableString("ShoppingCart", StilagoConsts.LocalizationSourceName),
-                //        url: "#/Orders/shopping-cart",
-                //        icon: "mdi-action-shopping-cart"
-                //        )
-                //).AddItem(
-                //    new MenuItemDefinition(
-                //        "MyOrders",
-                //        new LocalizableString("MyOrders", StilagoConsts.LocalizationSourceName),
-                //        url: "#/Orders/my-orders",
-                //        icon: "mdi-action-shopping-basket"
-                //        )
-                //);
         }
     }
 }

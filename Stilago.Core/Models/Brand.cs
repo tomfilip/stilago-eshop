@@ -10,6 +10,12 @@ namespace Stilago.Models
 {
     public class Brand : AuditBase
     {
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
+        public virtual Guid CountryId { get; set; }
+        public virtual Guid ComputerId { get; set; }
+
+        //Navigation Properties
+        public virtual Country Country { get; set; }
+        public virtual Computer Computer { get; set; }
     }
 }

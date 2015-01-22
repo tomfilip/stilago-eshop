@@ -7,5 +7,7 @@
     <text name="LearnMore" value="Viac o nás" />
     <text name="AboutFormat" value="O nás {0}" />
     <text name="ForMoreInformation" value="Pre viac informácií" />
+    <text name="CreateComputer" value="Pridať počítač" />
+    <text name="PreviewComputer" value="Zobraziť" />
   </texts>
 </localizationDictionary>

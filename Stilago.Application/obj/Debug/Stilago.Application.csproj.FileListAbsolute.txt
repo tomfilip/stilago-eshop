@@ -44,3 +44,7 @@ H:\Programovanie\2015\stilago-eshop\Stilago.Application\bin\Debug\System.Collect
 H:\Programovanie\2015\stilago-eshop\Stilago.Application\obj\Debug\Stilago.Application.csprojResolveAssemblyReference.cache
 H:\Programovanie\2015\stilago-eshop\Stilago.Application\obj\Debug\Stilago.Application.dll
 H:\Programovanie\2015\stilago-eshop\Stilago.Application\obj\Debug\Stilago.Application.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.Application\bin\Debug\Stilago.Fundamentals.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Application\bin\Debug\Stilago.SharedHelpers.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Application\bin\Debug\Stilago.Fundamentals.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.Application\bin\Debug\Stilago.SharedHelpers.pdb

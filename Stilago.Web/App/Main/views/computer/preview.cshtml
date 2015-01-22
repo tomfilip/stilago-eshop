@@ -1,0 +1,21 @@
+﻿<div ng-controller="app.views.computerPreview as vm">
+    <br /><br />
+    <div class="jumbotron" style="position:relative;">
+        <span style="font-size:60px;" class="pull-left mdi-device-dvr product-icon"></span>
+        <h1 style="margin-top: 5px; margin-left: 20px;" class="pull-left">{{form.model}}</h1>
+        <div class="clearfix"></div>
+        <h2>Price: ${{form.price}}</h2>
+
+        <label>Brand</label>
+        <p>{{form.brandName}}</p>
+
+        <label>Disk Capacity</label>
+        <p>{{form.diskCapacity}}MB</p>
+
+        <label>Description</label>
+        <p>{{form.description}}</p>
+
+        <button class="btn btn-info" ng-click="addToShoppingCart()">Add To Cart</button>
+        <a class="btn btn-fab btn-fab-mini btn-warning mdi-content-create" style="position:absolute; top: 20px; right:20px;" ng-href="#/Computer/Edit/{{form.id}}"></a>
+    </div>
+</div>

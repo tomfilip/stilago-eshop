@@ -1,3 +1,35 @@
 ﻿<div ng-controller="app.views.home as vm">
-    
+    <br />
+    <label>Brand Filter</label>
+    <brands-filter></brands-filter>
+
+    <label>Sort By</label>
+    <select id="sortByColumn" class="select">
+        <option value="0">Model</option>
+        <option value="1">Price</option>
+        <option value="2">Brand</option>
+    </select>
+    <label>Sort Direction</label>
+    <select id="sortDirection" class="select">
+        <option value="0">Ascending</option>
+        <option value="1">Descending</option>
+    </select>
+    <br />
+    <br />
+    <p ng-show="searchData.length == 0">No computers available</p>
+    <div class="shadow-z-1 pull-left product-card" ng-repeat="product in searchData">
+        <span class="mdi-device-dvr product-icon"></span>
+        <a ng-href="#/Computer/Preview/{{product.id}}"><h3>{{product.model}}</h3></a>
+        <br />
+        <label>brand</label>
+        <p>{{product.brandName}}</p>
+        <label>Disk Capacity</label>
+        <p>
+            {{product.diskCapacity}}
+        </p>
+        <label class="pull-left">Price</label>
+        <h4 class="pull-left">${{product.price}}</h4>
+        <button type="button" class="pull-right btn btn-fab btn-fab-mini btn-info mdi-action-add-shopping-cart" ng-click="addToShoppingCart()"></button>
+        <div class="clearfix"></div>
+    </div>
 </div>

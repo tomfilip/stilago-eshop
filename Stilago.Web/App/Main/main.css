@@ -47,12 +47,57 @@ body {
   color: #e05206;
   cursor: pointer;
   position: absolute;
-  top: 0;
+  top: 30px;
   right: 10px;
+}
+.search-container {
+  position: relative;
 }
 .search-container .form-control-wrapper .material-input:before,
 .search-container .form-control-wrapper .form-control:focus ~ .material-input:after,
 .search-container .form-control-wrapper .form-control.focus ~ .material-input:after {
   background-color: #e05206;
+}
+.shadow-container.shadow-z-1 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.12);
+  padding-bottom: 7px;
+}
+.error {
+  position: absolute;
+  color: red;
+  top: 0;
+  right: 15px;
+}
+.product-card {
+  margin-bottom: 10px;
+  margin-right: 1%;
+  padding: 10px;
+  width: 19%;
+  min-width: 178px;
+  background: white;
+}
+.product-card h3 {
+  margin: 0;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+.product-card h4 {
+  margin: 0;
+  margin-left: 5px;
+}
+.product-card .product-icon {
+  font-size: 40px;
+}
+.btn.btn-fab {
+  box-shadow: none;
+}
+.select {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=main.css.map */

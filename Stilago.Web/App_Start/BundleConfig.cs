@@ -28,6 +28,10 @@ namespace Stilago.Web
                 );
 
             //~/Bundles/App/vendor/js
+            bundles.Add(new ScriptBundle("~/Bundles/select2")
+                .Include("~/Scripts/select2.js"));
+
+
             bundles.Add(
                 new ScriptBundle("~/Bundles/App/vendor/js")
                     .Include(

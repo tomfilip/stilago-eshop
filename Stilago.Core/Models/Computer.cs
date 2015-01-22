@@ -15,8 +15,6 @@ namespace Stilago.Models
         [MaxLength(15)]
         [Required]
         public virtual string Model { get; set; }
-        [Required]
-        public virtual Guid BrandId { get; set; }
 
         /// <summary>
         /// Disk capacity in MB
@@ -25,7 +23,8 @@ namespace Stilago.Models
         public virtual long DiskCapacity { get; set; }
 
         //Navigation Properties
-        [Required]
-        public virtual Brand Brand { get; set; }
+        public virtual ICollection<Brand> CountryBrands { get; set; }
+        public virtual ICollection<ComputerInfo> ComputerInfo { get; set; }
+             
     }
 }

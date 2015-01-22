@@ -9,6 +9,7 @@ namespace Stilago
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+            AutomapperMappings.Init();
         }
     }
 }

@@ -1,0 +1,17 @@
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\obj\Debug\Stilago.Fundamentals.csprojResolveAssemblyReference.cache
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Stilago.Fundamentals.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Stilago.Fundamentals.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Abp.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Castle.Core.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Castle.Facilities.Logging.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Castle.Windsor.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Stilago.Core.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\System.Collections.Immutable.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Stilago.Core.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Abp.xml
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Castle.Core.xml
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Castle.Facilities.Logging.xml
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\Castle.Windsor.xml
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\bin\Debug\System.Collections.Immutable.xml
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\obj\Debug\Stilago.Fundamentals.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.Fundamentals\obj\Debug\Stilago.Fundamentals.pdb

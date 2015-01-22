@@ -46,3 +46,7 @@ H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\System.Col
 H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\obj\Debug\Stilago.EntityFramework.csprojResolveAssemblyReference.cache
 H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\obj\Debug\Stilago.EntityFramework.dll
 H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\obj\Debug\Stilago.EntityFramework.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\Stilago.Fundamentals.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\Stilago.Fundamentals.pdb
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\obj\Debug\Stilago.Migrations.initialSetup.resources
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\obj\Debug\Stilago.EntityFramework.csproj.GenerateResource.Cache
