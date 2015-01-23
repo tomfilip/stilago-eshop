@@ -17,15 +17,18 @@ namespace Stilago.Services
             IComputerRepository computerRepository, 
             IUserInfo userInfo,
             IComputerInfoRepository computerInfoRepository,
-            IBrandRepository brandRepository)
+            IBrandRepository brandRepository,
+            IBrandComputerRelationshipRepository brandComputerRelationshipRepository)
         {
             _ComputerRepository = computerRepository;
             _UserInfo = userInfo;
             _ComputerInfoRepository = computerInfoRepository;
             _BrandRepository = brandRepository;
+            _BrandComputerRelationshipRepository = brandComputerRelationshipRepository;
         }
 
         IBrandRepository _BrandRepository;
+        IBrandComputerRelationshipRepository _BrandComputerRelationshipRepository;
         IComputerInfoRepository _ComputerInfoRepository;
         IComputerRepository _ComputerRepository;
         IUserInfo _UserInfo;
@@ -38,7 +41,7 @@ namespace Stilago.Services
             {
                 var vm = _ComputerRepository.GetAll().Where(x => x.Id == input.Id.Value
                                 && x.IsDeleted == false).Select( x => new ViewModels.Computer.CreateEditViewModel(){
-                                    BrandName = x.CountryBrands.FirstOrDefault(y => y.CountryId == currentCountry.Id).Name,
+                                    BrandName = x.CountryBrandRelationships.FirstOrDefault(y => y.Brand.CountryId == currentCountry.Id).Brand.Name,
                                     Description = x.ComputerInfo.FirstOrDefault(y => y.CountryId == currentCountry.Id).Description,
                                     DiskCapacity = x.DiskCapacity,
                                     Id = x.Id,
@@ -76,17 +79,32 @@ namespace Stilago.Services
             newItem.ModifiedById = currentUser.Id;
             newItem.LastModificationTime = DateTimeOffset.Now;
 
-            //When you create you know that the brand and computer info won't exist so just create it
-            Brand brand = new Brand();
-            brand.Id = Guid.NewGuid();
-            brand.Name = input.Computer.BrandName;
-            brand.CountryId = currentUser.CountryId;
-            brand.ComputerId = newItem.Id;
-            //Audit
-            brand.CreatedById = currentUser.Id;
-            brand.CreationTime = DateTimeOffset.Now;
-            brand.ModifiedById = currentUser.Id;
-            brand.LastModificationTime = DateTimeOffset.Now;
+            //Check if there is already such a brand name in the local country
+            Brand brand = _BrandRepository.GetAll().FirstOrDefault(x => x.Name == input.Computer.BrandName && x.CountryId == currentUser.CountryId);
+
+            //If the local country brand does not exist create one
+            if (brand == null)
+            {
+                brand = new Brand();
+                brand.Id = Guid.NewGuid();
+                brand.Name = input.Computer.BrandName;
+                brand.CountryId = currentUser.CountryId;
+                //Audit
+                brand.CreatedById = currentUser.Id;
+                brand.CreationTime = DateTimeOffset.Now;
+                brand.ModifiedById = currentUser.Id;
+                brand.LastModificationTime = DateTimeOffset.Now;
+
+                _BrandRepository.Insert(brand);
+            }
+            
+            //because the computer is new just insert a relationship
+            BrandComputerRelationship rel = new BrandComputerRelationship();
+            rel.Id = Guid.NewGuid();
+            rel.BrandId = brand.Id;
+            rel.ComputerId = newItem.Id;
+
+            _BrandComputerRelationshipRepository.Insert(rel);
 
             ComputerInfo info = new ComputerInfo();
             info.Id = Guid.NewGuid();
@@ -101,7 +119,6 @@ namespace Stilago.Services
             info.LastModificationTime = DateTime.Now;
 
             _ComputerRepository.Insert(newItem);
-            _BrandRepository.Insert(brand);
             _ComputerInfoRepository.Insert(info);
 
             return new CreateEditOutput()
@@ -124,7 +141,8 @@ namespace Stilago.Services
             existingItem.ModifiedById = currentUser.Id;
             existingItem.LastModificationTime = DateTimeOffset.Now;
 
-            Brand brand = _BrandRepository.GetAll().FirstOrDefault(x => x.ComputerId == existingItem.Id && x.CountryId == currentUser.CountryId);
+            //We want to reuse the brands and don't want to create duplicates for the local country. Therefore we check it by the name
+            Brand brand = _BrandRepository.GetAll().FirstOrDefault(x => x.Name == input.Computer.BrandName && x.CountryId == currentUser.CountryId);
 
             //If the local country brand does not exist create one
             if (brand == null)
@@ -133,7 +151,6 @@ namespace Stilago.Services
                 brand.Id = Guid.NewGuid();
                 brand.Name = input.Computer.BrandName;
                 brand.CountryId = currentUser.CountryId;
-                brand.ComputerId = existingItem.Id;
                 //Audit
                 brand.CreatedById = currentUser.Id;
                 brand.CreationTime = DateTimeOffset.Now;
@@ -142,16 +159,22 @@ namespace Stilago.Services
 
                 _BrandRepository.Insert(brand);
             }
-            //If the local country brand exists update it
-            else
-            {
-                brand.Name = input.Computer.BrandName;
-                //Audit
-                brand.ModifiedById = currentUser.Id;
-                brand.LastModificationTime = DateTimeOffset.Now;
 
-                _BrandRepository.Update(brand);
+            //Now delete all the existing relationships for this computer and this country
+            //If there has been no bug in the code there should be only one
+            var brandRelationshipsToDelete = _BrandComputerRelationshipRepository.GetAll().Where(x => x.ComputerId == existingItem.Id && x.Brand.CountryId == currentUser.CountryId).ToList();
+            foreach(var rel in brandRelationshipsToDelete)
+            {
+                _BrandComputerRelationshipRepository.Delete(rel);
             }
+
+            //Now insert a new relationship
+            BrandComputerRelationship newRelationship = new BrandComputerRelationship();
+            newRelationship.BrandId = brand.Id;
+            newRelationship.ComputerId = existingItem.Id;
+            newRelationship.Id = Guid.NewGuid();
+
+            _BrandComputerRelationshipRepository.Insert(newRelationship);
 
             ComputerInfo info = _ComputerInfoRepository.GetAll().FirstOrDefault(x => x.ComputerId == existingItem.Id && x.CountryId == currentUser.CountryId);
             //If the local country computer info does not exist. Create it

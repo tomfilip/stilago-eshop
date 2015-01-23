@@ -123,10 +123,10 @@ namespace Stilago.Services
                     .Where(x =>
                         (
                             x.Model.Contains(input.SearchTerm) ||
-                            x.CountryBrands.FirstOrDefault(y => y.CountryId == currentCountry.Id).Name.Contains(input.SearchTerm) ||
+                            x.CountryBrandRelationships.FirstOrDefault(y => y.Brand.CountryId == currentCountry.Id).Brand.Name.Contains(input.SearchTerm) ||
                             x.ComputerInfo.FirstOrDefault(y => y.CountryId == currentCountry.Id).Description.Contains(input.SearchTerm)
                         )
-                        && x.CountryBrands.FirstOrDefault(y => y.CountryId == currentCountry.Id).Id == input.BrandId.Value
+                        && x.CountryBrandRelationships.FirstOrDefault(y => y.Brand.CountryId == currentCountry.Id).BrandId == input.BrandId.Value
                         && x.IsDeleted == false);
                 }
                 else
@@ -135,7 +135,7 @@ namespace Stilago.Services
                     .Where(x =>
                         (
                             x.Model.Contains(input.SearchTerm) ||
-                            x.CountryBrands.FirstOrDefault(y => y.CountryId == currentCountry.Id).Name.Contains(input.SearchTerm) ||
+                            x.CountryBrandRelationships.FirstOrDefault(y => y.Brand.CountryId == currentCountry.Id).Brand.Name.Contains(input.SearchTerm) ||
                             x.ComputerInfo.FirstOrDefault(y => y.CountryId == currentCountry.Id).Description.Contains(input.SearchTerm)
                         )
                         && x.IsDeleted == false);
@@ -147,7 +147,7 @@ namespace Stilago.Services
                 {
                     computers = _ComputerRepository
                     .GetAll()
-                    .Where(x => x.CountryBrands.FirstOrDefault(y => y.CountryId == currentCountry.Id).Id == input.BrandId.Value);
+                    .Where(x => x.CountryBrandRelationships.FirstOrDefault(y => y.Brand.CountryId == currentCountry.Id).BrandId == input.BrandId.Value);
                 }
                 else
                 {
@@ -160,7 +160,7 @@ namespace Stilago.Services
             {
                 if (input.SortBy == SortBy.Brand)
                 {
-                    computers = computers.OrderBy(x => x.CountryBrands.FirstOrDefault(y => y.CountryId == currentCountry.Id).Name);
+                    computers = computers.OrderBy(x => x.CountryBrandRelationships.FirstOrDefault(y => y.Brand.CountryId == currentCountry.Id).Brand.Name);
                 }
                 else if (input.SortBy == SortBy.Model)
                 {
@@ -175,7 +175,7 @@ namespace Stilago.Services
             {
                 if (input.SortBy == SortBy.Brand)
                 {
-                    computers = computers.OrderByDescending(x => x.CountryBrands.FirstOrDefault(y => y.CountryId == currentCountry.Id).Name);
+                    computers = computers.OrderByDescending(x => x.CountryBrandRelationships.FirstOrDefault(y => y.Brand.CountryId == currentCountry.Id).Brand.Name);
                 }
                 else if (input.SortBy == SortBy.Model)
                 {
@@ -204,7 +204,7 @@ namespace Stilago.Services
                     Id = x.Id,
                     Model = x.Model,
                     DiskCapacity = x.DiskCapacity,
-                    BrandName = x.CountryBrands.Where(y => y.CountryId == currentCountryId).FirstOrDefault().Name,
+                    BrandName = x.CountryBrandRelationships.Where(y => y.Brand.CountryId == currentCountryId).FirstOrDefault().Brand.Name,
                     Description = x.ComputerInfo.Where(y => y.CountryId == currentCountryId).FirstOrDefault().Description,
                     Price = x.ComputerInfo.Where(y => y.CountryId == currentCountryId).FirstOrDefault().Price,
                 }

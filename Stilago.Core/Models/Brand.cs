@@ -12,10 +12,10 @@ namespace Stilago.Models
     {
         public virtual string Name { get; set; }
         public virtual Guid CountryId { get; set; }
-        public virtual Guid ComputerId { get; set; }
 
         //Navigation Properties
         public virtual Country Country { get; set; }
-        public virtual Computer Computer { get; set; }
+
+        public virtual ICollection<BrandComputerRelationship> ComputerRelationships { get; set; }
     }
 }

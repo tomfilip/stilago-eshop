@@ -23,7 +23,7 @@ namespace Stilago.Models
         public virtual long DiskCapacity { get; set; }
 
         //Navigation Properties
-        public virtual ICollection<Brand> CountryBrands { get; set; }
+        public virtual ICollection<BrandComputerRelationship> CountryBrandRelationships { get; set; }
         public virtual ICollection<ComputerInfo> ComputerInfo { get; set; }
              
     }

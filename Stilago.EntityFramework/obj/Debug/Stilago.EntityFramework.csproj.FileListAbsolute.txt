@@ -50,3 +50,9 @@ H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\Stilago.Fu
 H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\Stilago.Fundamentals.pdb
 H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\obj\Debug\Stilago.Migrations.initialSetup.resources
 H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\obj\Debug\Stilago.EntityFramework.csproj.GenerateResource.Cache
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\Newtonsoft.Json.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\System.Net.Http.Formatting.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\System.Web.Http.dll
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\Newtonsoft.Json.xml
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\System.Net.Http.Formatting.xml
+H:\Programovanie\2015\stilago-eshop\Stilago.EntityFramework\bin\Debug\System.Web.Http.xml

@@ -13,7 +13,7 @@ namespace Stilago.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201501222257570_initialSetup"; }
+            get { return "201501230013022_initialSetup"; }
         }
         
         string IMigrationMetadata.Source
